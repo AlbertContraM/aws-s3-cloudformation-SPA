@@ -14,10 +14,10 @@ This template has been tested in us-east-1 region only, you can change the resou
 
   1. Deploy the template in CloudFormation.
   2. On the Specify stack details page, enter values for the following fields:
-    - SubDomain: The subdomain for your registered domain name, for example: www.example.com
-    - DomainName: Your registered domain name, as example.com. This domain must be pointed to a Route 53 hosted zone.
-    - HostedZoneId The Route 53 Hosted Zone Id containing the domain being used.
-    - CreateApex: Create an Alias to the domain apex (example.com)
+      - SubDomain: The subdomain for your registered domain name, for example: www.example.com
+      - DomainName: Your registered domain name, as example.com. This domain must be pointed to a Route 53 hosted zone.
+      - HostedZoneId The Route 53 Hosted Zone Id containing the domain being used.
+      - CreateApex: Create an Alias to the domain apex (example.com)
   3. Wait for the CloudFormation stack to launch.
   4. Choose the bucket for the files whose name is protunnus-web or the name you have chosen
   5. In this bucket upload your own SPA build.
