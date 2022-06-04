@@ -9,7 +9,7 @@ Creates the infrastructure to host and expose a Single Page Application:
   - DNS records for the custom domain name
   - CloudFront function to redirect to index.html because react router need this behaviour
 
-##Deploy the solution
+## Deploy the solution
 This template has been tested in us-east-1 region only, you can change the resources names to match your own deployment
 
   1. Deploy the template in CloudFormation.
